@@ -12,6 +12,12 @@ This is a simple chat application built using Express.js and Socket.IO that allo
 - Simple and easy-to-use interface
 - Lightweight and fast
 
+## Images
+![Screenshot 2023-11-08 195313](https://github.com/sinethjanidu2003/Chat-Application-/assets/63631182/1f7736a4-fc7c-43bf-a973-2c22cee50304)
+
+![Screenshot 2023-11-08 195339](https://github.com/sinethjanidu2003/Chat-Application-/assets/63631182/1b07880d-0943-438d-b8b8-801202e7923b)
+
+
 ## Installation
 
 1. Clone this repository to your local machine:
