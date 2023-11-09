@@ -67,10 +67,13 @@
 
         function formSubmit(event){
             event.preventDefault();
-            
-            socket.emit('chat message', $('#message-input').val(), uniqueId,randomColor,userName);
+            if( $(!('#message-input').val() == "" ||  $('#message-input').val() == null)){
+                socket.emit('chat message', $('#message-input').val(), uniqueId,randomColor,userName);
             $('#message-input').val("");
+            }
             return false;
+
+           
         }
 
         socket.on('chat message', function(message,userID,randomColor,userName) {
