@@ -1,5 +1,5 @@
 # Anonymous Chat Application with Express.js and Socket.IO
-##You can Try Online - Join the server - http://3.16.160.164:3000/ ##
+# You can Try Online - Join the server - http://3.16.160.164:3000/ 
 ## Overview
 
 This is a simple chat application built using Express.js and Socket.IO that allows anonymous users to send and receive messages in real-time. Users who are online can communicate with each other without the need for registration or authentication.
